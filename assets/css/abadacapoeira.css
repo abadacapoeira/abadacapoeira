@@ -12,3 +12,17 @@ body{
     width:80%;
     margin:0 auto;
 }
+
+.foto_mestrecamisa{
+    width:80%;
+}
+
+/* 狭いブラウザとタブレット向け */
+@media (max-width: 1020px) and (min-width: 768px) {
+}
+/* スマホ向け */
+@media (max-width: 767px) {
+    .foto_mestrecamisa{
+        width:100%;
+    }
+}
