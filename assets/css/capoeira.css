@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+body{
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color:#333;
+}
+
+
+.what_capoeira{
+    width:80%;
+    margin:0 auto;
+}
+
+.ans_capoeira_sentense{
+    padding-bottom: 10px;
+}

@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+body{
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color:#333;
+}
+
+h1{
+    text-align: center;
+}
+
+.contact_description{
+    font-size: 20pt;
+    text-align: center;
+    margin-bottom: 30px;
+/*
+    width: 80%;
+    margin: auto;
+*/
+}
+
+.card_list{
+    width: 90%;
+    margin: auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card_item{
+    display:flex;
+    flex-direction: column;
+    padding-left:10px;
+}
+
+/*
+ol{
+    width: 80%;
+background-color:darkgray;
+    margin: 0 auto;
+}
+*/    
+
+
+.contact_info{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+/*    flex-wrap: wrap;*/
+    margin-bottom: 10px;
+    background-color: beige;
+    font-size: 14pt;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contact_info_mail, .contact_info_other, .contact_info_tel, .contact_info_place{
+    text-align: center;
+    margin-right: 10px;
+}
+
+.blankrow{
+    height:20px;
+}
+
+.img_event, .img_performance, .img_workshop{
+    width: 400px;
+}
+
+/* 狭いブラウザとタブレット向け */
+@media (max-width: 1020px) and (min-width: 768px) {
+    .img_event, .img_performance, .img_workshop{
+        width: 400px;
+    }
+}
+/* スマホ向け */
+@media (max-width: 767px) {
+    .img_event, .img_performance, .img_workshop{
+        width: 300px;
+    }
+}
+
+

@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+body{
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color:#333;
+}
+
+.sec_abadacapoeira{
+    width:80%;
+    margin:0 auto;
+}
