@@ -41,6 +41,9 @@ h1{
 }
 /* スマホ向け */
 @media (max-width: 767px) {
+    .class_description{
+        width: 100%;
+    }
     .schedule_card{
         width: 100%;
     }
