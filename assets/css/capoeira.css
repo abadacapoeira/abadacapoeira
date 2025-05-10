@@ -20,6 +20,8 @@ body{
 @media (max-width: 767px) {
     .what_capoeira{
         width:100%;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 }
 
