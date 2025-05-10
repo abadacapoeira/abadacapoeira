@@ -41,8 +41,9 @@ h1{
     display: flex;
     margin-top: 10px;
     margin-bottom: 10px;
-    flex-wrap: wrap;
+    flex-direction: column;
 /*
+    flex-wrap: wrap;
     justify-content:center;
 */
 }
@@ -51,8 +52,9 @@ h1{
     display: flex;
     padding-left: 10px;
     padding-bottom: 10px;
-    flex-wrap: wrap;
+    flex-direction: column;
 /*
+    flex-wrap: wrap;
     margin-left: 10px;
     margin-right: 10px;
 */
@@ -65,7 +67,10 @@ h1{
 .schedule_item_mon{
     font-size: 16pt;
     text-align: center;
+    background-color:bisque;
+/*
     background-color: aquamarine;
+*/
 }
 .schedule_item_tue{
     font-size: 16pt;
@@ -73,11 +78,35 @@ h1{
     background-color:bisque;
 }
 
+.class_title{
+    font-size: 14pt;
+    margin-bottom: 5px;
+}
+
 .place_name, .class_time, .class_prof{
     font-size: 10pt;
+    margin-bottom: 5px;
 }
 
 .class_desc{
     font-size: 10pt;
     color: red;
+    margin-bottom: 5px;
+}
+
+.place_map{
+    width:800px;
+    height:400px;
+}
+
+
+/* 狭いブラウザとタブレット向け */
+@media (max-width: 1020px) and (min-width: 768px) {
+}
+/* スマホ向け */
+@media (max-width: 767px) {
+    .place_map{
+        width:100%;
+        height:400px;
+    }
 }
