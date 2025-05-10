@@ -29,6 +29,15 @@ h1{
     flex-wrap: wrap;
     justify-content: center;
 }
+/* 狭いブラウザとタブレット向け */
+@media (max-width: 1020px) and (min-width: 768px) {
+}
+/* スマホ向け */
+@media (max-width: 767px) {
+    .card_list{
+        width: 100%;
+    }
+}
 
 .card_item{
     display:flex;
@@ -58,6 +67,14 @@ background-color:darkgray;
     margin-right: auto;
     margin-left: auto;
 }
+@media (max-width: 1020px) and (min-width: 768px) {
+}
+/* スマホ向け */
+@media (max-width: 767px) {
+    .contact_info{
+        width: 100%;
+    }
+}
 
 .contact_info_mail, .contact_info_other, .contact_info_tel, .contact_info_place{
     text-align: center;
@@ -68,20 +85,17 @@ background-color:darkgray;
     height:20px;
 }
 
-.img_event, .img_performance, .img_workshop{
+.img_class, .img_event, .img_performance, .img_workshop{
     width: 400px;
 }
 
 /* 狭いブラウザとタブレット向け */
 @media (max-width: 1020px) and (min-width: 768px) {
-    .img_event, .img_performance, .img_workshop{
-        width: 400px;
-    }
 }
 /* スマホ向け */
 @media (max-width: 767px) {
-    .img_event, .img_performance, .img_workshop{
-        width: 300px;
+    .img_class, .img_event, .img_performance, .img_workshop{
+        width: 100%;
     }
     .contact_info{
         width: 50%;
