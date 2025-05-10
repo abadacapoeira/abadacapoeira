@@ -36,6 +36,15 @@ h1{
     width: 70%;
     margin: 0 auto;
 }
+/* 狭いブラウザとタブレット向け */
+@media (max-width: 1020px) and (min-width: 768px) {
+}
+/* スマホ向け */
+@media (max-width: 767px) {
+    .schedule_card{
+        width: 100%;
+    }
+}
 
 .schedule_list{
     display: flex;
