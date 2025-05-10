@@ -13,24 +13,34 @@ body{
 }
 
 .Player > iframe {
-    width: 1120px;
-    height:630px;    
+    width: 100%;
+    height:auto;    
+    aspect-ratio: 16 / 9;
+/* 上限を持たせたかったら
+    max-width: 600px;
+    display: block;
+    margin: auto;
+*/
+
 }
 
 /* 狭いブラウザとタブレット向け */
 @media (max-width: 1020px) and (min-width: 768px) {
-     .Player > iframe {
+/*
+    .Player > iframe {
         width: 560px;
         height:310px;    
     }
+*/
 }
 /* スマホ向け */
 @media (max-width: 767px) {
-    .Player > iframe {
+/*
+.Player > iframe {
         width: 300px;
         height:150px;    
     }
-
+*/
 }
 
 /*
