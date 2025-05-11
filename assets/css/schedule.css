@@ -13,12 +13,13 @@ h1{
 }
 
 .contact{
-    width: 400px;
+    width: 600px;
     background-color: lightgray;
     margin-top: 5px;    margin-bottom: 5px;
     margin-left: auto; margin-right: auto;
     display: flex;
     flex-direction: column;
+    padding: 5px;
 }
 /* 狭いブラウザとタブレット向け */
 @media (max-width: 1020px) and (min-width: 768px) {
@@ -29,6 +30,12 @@ h1{
             width: 95%;
     }
 }
+
+.contact_mail{font-size: 16pt;}
+.contact_title, .contact_mail, .contact_tel, .contact_memo{
+    text-align: center;
+}
+
 
 .class_description{
     width: 70%;
