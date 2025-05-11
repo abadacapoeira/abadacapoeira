@@ -12,6 +12,24 @@ h1{
     text-align: center;
 }
 
+.contact{
+    width: 400px;
+    background-color: lightgray;
+    margin-top: 5px;    margin-bottom: 5px;
+    margin-left: auto; margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+/* 狭いブラウザとタブレット向け */
+@media (max-width: 1020px) and (min-width: 768px) {
+}
+/* スマホ向け */
+@media (max-width: 767px) {
+    .contact{
+            width: 95%;
+    }
+}
+
 .class_description{
     width: 70%;
     margin: 0 auto;

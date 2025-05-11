@@ -95,7 +95,10 @@ background-color:darkgray;
     height:20px;
 }
 
-.img_class, .img_event, .img_performance, .img_workshop{
+.img_event{
+    width: 450px;
+}
+.img_class, .img_performance, .img_workshop{
     width: 400px;
 }
 
