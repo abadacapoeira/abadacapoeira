@@ -50,12 +50,9 @@ body{
 }
 /* スマホ向け */
 @media (max-width: 767px) {
-/*
-.Player > iframe {
-        width: 300px;
-        height:150px;    
+    .Player > div {
+        font-size: 20pt;
     }
-*/
 }
 
 /*
