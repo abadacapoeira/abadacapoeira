@@ -14,7 +14,7 @@ body{
 }
 
 .Player > iframe {
-    width: 100%;
+    width: 90%;
     height:auto;    
     aspect-ratio: 16 / 9;
 /* 上限を持たせたかったら
@@ -22,7 +22,15 @@ body{
     display: block;
     margin: auto;
 */
-
+}
+/* 狭いブラウザとタブレット向け */
+@media (max-width: 1020px) and (min-width: 768px) {
+}
+/* スマホ向け */
+@media (max-width: 767px) {
+    .Player > iframe {
+        width: 100%;
+    }
 }
 
 .Player > div{
